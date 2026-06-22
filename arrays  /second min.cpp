@@ -1,5 +1,6 @@
 #include<iostream>
 #include<climits>
+#include<vector>
 uisng namespace std;
 //finding seccond min element using function
 int second_min(vector<int>&arr){
