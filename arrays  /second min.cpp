@@ -16,7 +16,25 @@ for(int i=0 ;i<k;i++){
 return s_mini;
 };
 
-     
+vector<int>create_array(){
+int n;
+cout<<"enter the size of array \n";
+cin>>n;
+vector<int>arr(n);
+for(int i=0 ;i<n;i++){
+    cin>>arr[i];
+}
+for(int i=0 ;i<n;i++){
+cout<<arr[i]<<endl;
+}
+return arr;
+}
+
+ int main(){
+
+    vector<int>ssst = create_array();
+cout<<second_min(ssst);
+
 
 
 
